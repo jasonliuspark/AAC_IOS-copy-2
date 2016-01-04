@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HeaderVIewController : UICollectionReusableView
+@interface HeaderVIewController : UICollectionReusableView <UICollectionViewDataSource,UICollectionViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIButton *Check;
+@property (strong, nonatomic) IBOutlet UIButton *Pin;
+@property (strong, nonatomic) IBOutlet UIButton *Delete;
 
 @end

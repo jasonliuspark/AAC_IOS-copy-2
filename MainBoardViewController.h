@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainBoardViewController : UICollectionViewController
+@interface MainBoardViewController :  UICollectionViewController
+
 
 @end

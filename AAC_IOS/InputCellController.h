@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InputViewController : UICollectionViewCell
+@interface InputCellController : UICollectionViewCell
 
 @end

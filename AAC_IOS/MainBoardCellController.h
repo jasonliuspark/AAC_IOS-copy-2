@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainBoardCellController : UICollectionViewCell
+@interface MainBoardCellController : UICollectionViewCell <UICollectionViewDelegate,UICollectionViewDataSource>
+@property (strong, nonatomic) IBOutlet UILabel *WordContent;
 
 @end

@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		3E30EA0E1C38E2FD000E77BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA0D1C38E2FD000E77BC /* main.m */; };
 		3E30EA111C38E2FD000E77BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA101C38E2FD000E77BC /* AppDelegate.m */; };
-		3E30EA141C38E2FD000E77BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA131C38E2FD000E77BC /* FirstViewController.m */; };
-		3E30EA171C38E2FD000E77BC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA161C38E2FD000E77BC /* SecondViewController.m */; };
 		3E30EA1A1C38E2FD000E77BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E30EA181C38E2FD000E77BC /* Main.storyboard */; };
 		3E30EA1C1C38E2FD000E77BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E30EA1B1C38E2FD000E77BC /* Assets.xcassets */; };
 		3E30EA1F1C38E2FD000E77BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E30EA1D1C38E2FD000E77BC /* LaunchScreen.storyboard */; };
 		3E30EA2A1C38E2FD000E77BC /* AAC_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA291C38E2FD000E77BC /* AAC_IOSTests.m */; };
 		3E30EA351C38E2FD000E77BC /* AAC_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30EA341C38E2FD000E77BC /* AAC_IOSUITests.m */; };
+		3EC851E41C3900B600AE607E /* MainBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC851E31C3900B600AE607E /* MainBoardViewController.m */; };
+		3EC851E71C39011700AE607E /* MainBoardCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC851E61C39011700AE607E /* MainBoardCellController.m */; };
+		3EC851F11C39600F00AE607E /* HeaderVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC851F01C39600F00AE607E /* HeaderVIewController.m */; };
+		3EC851F41C39F54300AE607E /* InputCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC851F31C39F54300AE607E /* InputCellController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +42,6 @@
 		3E30EA0D1C38E2FD000E77BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E30EA0F1C38E2FD000E77BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E30EA101C38E2FD000E77BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E30EA121C38E2FD000E77BC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3E30EA131C38E2FD000E77BC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3E30EA151C38E2FD000E77BC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3E30EA161C38E2FD000E77BC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3E30EA191C38E2FD000E77BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E30EA1B1C38E2FD000E77BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E30EA1E1C38E2FD000E77BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,14 @@
 		3E30EA301C38E2FD000E77BC /* AAC_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAC_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E30EA341C38E2FD000E77BC /* AAC_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAC_IOSUITests.m; sourceTree = "<group>"; };
 		3E30EA361C38E2FD000E77BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC851E21C3900B600AE607E /* MainBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainBoardViewController.h; path = ../MainBoardViewController.h; sourceTree = "<group>"; };
+		3EC851E31C3900B600AE607E /* MainBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainBoardViewController.m; path = ../MainBoardViewController.m; sourceTree = "<group>"; };
+		3EC851E51C39011700AE607E /* MainBoardCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoardCellController.h; sourceTree = "<group>"; };
+		3EC851E61C39011700AE607E /* MainBoardCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoardCellController.m; sourceTree = "<group>"; };
+		3EC851EF1C39600F00AE607E /* HeaderVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderVIewController.h; sourceTree = "<group>"; };
+		3EC851F01C39600F00AE607E /* HeaderVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderVIewController.m; sourceTree = "<group>"; };
+		3EC851F21C39F54300AE607E /* InputCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCellController.h; sourceTree = "<group>"; };
+		3EC851F31C39F54300AE607E /* InputCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCellController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,9 @@
 		3E30EA0B1C38E2FD000E77BC /* AAC_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				3EC851E81C39014C00AE607E /* Mainboard */,
 				3E30EA0F1C38E2FD000E77BC /* AppDelegate.h */,
 				3E30EA101C38E2FD000E77BC /* AppDelegate.m */,
-				3E30EA121C38E2FD000E77BC /* FirstViewController.h */,
-				3E30EA131C38E2FD000E77BC /* FirstViewController.m */,
-				3E30EA151C38E2FD000E77BC /* SecondViewController.h */,
-				3E30EA161C38E2FD000E77BC /* SecondViewController.m */,
 				3E30EA181C38E2FD000E77BC /* Main.storyboard */,
 				3E30EA1B1C38E2FD000E77BC /* Assets.xcassets */,
 				3E30EA1D1C38E2FD000E77BC /* LaunchScreen.storyboard */,
@@ -143,6 +146,21 @@
 				3E30EA361C38E2FD000E77BC /* Info.plist */,
 			);
 			path = AAC_IOSUITests;
+			sourceTree = "<group>";
+		};
+		3EC851E81C39014C00AE607E /* Mainboard */ = {
+			isa = PBXGroup;
+			children = (
+				3EC851E51C39011700AE607E /* MainBoardCellController.h */,
+				3EC851E61C39011700AE607E /* MainBoardCellController.m */,
+				3EC851E21C3900B600AE607E /* MainBoardViewController.h */,
+				3EC851E31C3900B600AE607E /* MainBoardViewController.m */,
+				3EC851EF1C39600F00AE607E /* HeaderVIewController.h */,
+				3EC851F01C39600F00AE607E /* HeaderVIewController.m */,
+				3EC851F21C39F54300AE607E /* InputCellController.h */,
+				3EC851F31C39F54300AE607E /* InputCellController.m */,
+			);
+			name = Mainboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E30EA171C38E2FD000E77BC /* SecondViewController.m in Sources */,
 				3E30EA111C38E2FD000E77BC /* AppDelegate.m in Sources */,
-				3E30EA141C38E2FD000E77BC /* FirstViewController.m in Sources */,
+				3EC851F41C39F54300AE607E /* InputCellController.m in Sources */,
+				3EC851F11C39600F00AE607E /* HeaderVIewController.m in Sources */,
+				3EC851E71C39011700AE607E /* MainBoardCellController.m in Sources */,
+				3EC851E41C3900B600AE607E /* MainBoardViewController.m in Sources */,
 				3E30EA0E1C38E2FD000E77BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JAS.AAC-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -437,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JAS.AAC-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -507,6 +529,7 @@
 				3E30EA3B1C38E2FD000E77BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E30EA3C1C38E2FD000E77BC /* Build configuration list for PBXNativeTarget "AAC_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +538,7 @@
 				3E30EA3E1C38E2FD000E77BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E30EA3F1C38E2FD000E77BC /* Build configuration list for PBXNativeTarget "AAC_IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +547,7 @@
 				3E30EA411C38E2FD000E77BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
